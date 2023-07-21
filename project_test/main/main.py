@@ -5,5 +5,6 @@ if __name__ == '__main__':
     print('Ceci est une nouvelle fonctionnalité du projet.')
 
     voiture1 = Voiture()
-    voiture1.marque = 'Renault'
-    voiture1.afficher_marque()
+    voiture1.prix = 12_500
+    
+    voiture1.afficher_infos()
